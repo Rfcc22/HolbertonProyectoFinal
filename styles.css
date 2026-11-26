@@ -1,0 +1,55 @@
+
+h1, h2, h3 {
+  color: #c77dff;
+}
+
+a {
+  color: #d9a3ff;
+}
+
+a:hover {
+  color: #ab1cc4b6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: rgb(37, 37, 37);
+}
+
+p {
+    color: aliceblue;
+}
+
+
+#Yo {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Py {
+    width: 400px;
+    height: auto;
+}
+
+article {
+    padding: 10px;;
+}
+
+aside {
+    padding: 10px;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+header, footer {
+  padding: 10px 20px;
+}
+
