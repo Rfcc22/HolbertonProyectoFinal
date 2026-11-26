@@ -22,18 +22,6 @@ p {
     color: aliceblue;
 }
 
-
-#Yo {
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-}
-
-#Py {
-    width: 400px;
-    height: auto;
-}
-
 article {
     padding: 10px;;
 }
@@ -53,3 +41,18 @@ header, footer {
   padding: 10px 20px;
 }
 
+article img {
+  max-width: 300px;   
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, max-width 0.2s ease;
+}
+
+article img:hover {
+  transform: scale(1.05);   
+}
+
+article img.small {
+  max-width: 150px;        
+}
