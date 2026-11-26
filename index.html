@@ -6,7 +6,8 @@
   <title>Quien soy yo?</title>
   <link href="styles.css" rel="stylesheet">
   <script src="behaviour.js"></script>
-
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0"></script>
 
 </head>
 <body>
@@ -16,7 +17,11 @@
       <li><a href="index.html">Pagina principal</a></li>
       <li><a href="futuro.html">Mis metas</a></li>
       <li><a href="Juegos.html">Juegos favoritos</a></li>
-        </ul>
+    </ul>
+  <div class="right">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Comparte en Twitter" data-url="https://Rfcc22.github.io/HolbertonProyectoFinal/index.html">Tweet</a>
+    <div class="fb-share-button" data-href="https://Rfcc22.github.io/HolbertonProyectoFinal/index.html" data-layout="button"></div>
+  </div>
   </header>
   <main>
     <article>
@@ -25,7 +30,19 @@
       <p>Hola soy rodolfo un estudiante de la carrera de tecnologias de informacion en la Anahuac Mayab</p>
     </article>
     <aside>
-      <p>hola</p>
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+            this.page.url = 'https://Rfcc22.github.io/HolbertonProyectoFinal/index.html';
+            this.page.identifier = 'index';
+            };
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://rfcc.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
     </aside>
   </main>
   <footer>
